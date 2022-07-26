@@ -1,0 +1,30 @@
+{
+  "name": "aconomy-apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Shrish",
+  "license": "ISC",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "easy-session": "^2.0.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.0",
+    "mssql": "^7.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
